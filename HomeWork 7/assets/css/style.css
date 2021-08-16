@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 35px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a:first-child {
+    font-size: 32px;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.components {
+    min-height: 600px;
+}
+
+.cell {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.component-containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    height: 150px;
+    background: linear-gradient(45deg, purple, blue, violet);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.foto > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 70px;
+    border: 8px solid white;
+}
+
+.foto {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+}
+
+.text {
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+ 
+span:last-child {
+    float: right;
+}
+
+i {
+    margin: 20px 30px 20px 30px;
+    font-size: 35px;
+}
+
+button:first-child {
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 0px solid rgb(54, 202, 54);
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 0px 0px 10px;
+    background: rgb(0, 199, 0);
+    color: white;
+    font-size: 35px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+div.btn {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+
+.mains {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
